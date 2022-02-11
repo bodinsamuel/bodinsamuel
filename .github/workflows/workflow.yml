@@ -16,6 +16,18 @@ jobs:
           repositories_affiliations: owner, collaborator
           base: ""
           plugin_achievements: true
-          plugin_achievements_ignored: stargazer, developer, forker, member, explorer, automater, infographile
           plugin_reactions: true
           plugin_reactions_limit: 1000
+          
+          template: classic
+          config_timezone: Europe/Paris
+          plugin_achievements_display: detailed
+          plugin_achievements_secrets: yes
+          plugin_achievements_threshold: B
+          plugin_followup: yes
+          plugin_followup_sections: repositories
+          plugin_lines: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_limit_discussions: 100
+          plugin_reactions_limit_discussions_comments: 100
+          plugin_reactions_limit_issues: 100
